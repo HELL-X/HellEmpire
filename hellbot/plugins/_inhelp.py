@@ -35,11 +35,11 @@ USER_BOT_WARN_ZERO = "Enough Of Your Flooding In My Master's PM!! \n\n**🚫 Blo
 
 alive_txt = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
-<b>Telethon ≈</b>  <i>{}</i>
-<b>Hêllẞø† ≈</b>  <i>{}</i>
-<b>Uptime ≈</b>  <i>{}</i>
-<b>Abuse ≈</b>  <i>{}</i>
-<b>Sudo ≈</b>  <i>{}</i>
+<b>𝑇𝑒𝑙𝑒𝑡ℎ𝑜𝑛 ≈</b>  <i>{}</i>
+<b>𝐻𝑒𝑙𝑙𝐸𝑚𝑝𝑖𝑒 ≈</b>  <i>{}</i>
+<b>𝑈𝑝𝑇𝑖𝑚𝑒 ≈</b>  <i>{}</i>
+<b>𝐴𝑏𝑢𝑠𝑒 ≈</b>  <i>{}</i>
+<b>𝑆𝑢𝑑𝑜 ≈</b>  <i>{}</i>
 """
 
 def button(page, modules):
