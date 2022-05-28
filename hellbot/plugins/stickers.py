@@ -114,7 +114,7 @@ async def kang(event):
                 emoji = splat[1]
 
         packname = f"Hellbot_{un_}_{pack}"
-        packnick = f"{hellbot}" if hellbot else f"{un}'s Hêllẞø† Vol.{pack}"
+        packnick = f"{hellbot}" if hellbot else f"{un}'s 𝐻𝑒𝑙𝑙𝐸𝑚𝑝𝑖𝑟𝑒 𝑉𝑂𝐿.{pack}"
         cmd = "/newpack"
         file = io.BytesIO()
 
