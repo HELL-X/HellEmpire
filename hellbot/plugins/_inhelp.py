@@ -169,7 +169,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or "**You Have Trespassed To My Master's PM!\nThis Is Illegal And Regarded As Crime.**"
-            HELL_FIRST = "**🔥 Hêllẞø† Prîvã†é Sêçürïty Prø†öçõl 🔥**\n\nHello!! Welcome to {}'s PM. This is an automated message.\n\n{}".format(hell_mention, CSTM_PMP)
+            HELL_FIRST = "**🔥 𝐻𝑒𝑙𝑙𝑥𝐸𝑚𝑝𝑖𝑟𝑒 𝑆𝑒𝑐𝑢𝑟𝑖𝑡𝑦🔥**\n\nHello!! Welcome to {}'s PM. This is an automated message.\n\n{}".format(hell_mention, CSTM_PMP)
             a = gvarstat("PMPERMIT_PIC")
             pic_list = []
             if a:
@@ -179,7 +179,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://telegra.ph/file/58df4d86400922aa32acd.jpg"
+                PIC = "https://telegra.ph/file/ba2675352b5aaf27c5dca.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     file=PIC,
@@ -218,10 +218,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id in auth and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡**",
+                text=f"**⚡ ʟɛɢɛռɖaʀʏ ᴀғ 𝙷𝙴𝙻𝙻𝚡𝙴𝚖𝚙𝚒𝚛𝚎 ⚡**",
                 buttons=[
                     [Button.url("📑 Repo 📑", "https://github.com/The-HellBot/HellBot")],
-                    [Button.url("HellBot Netwprk", "https://t.me/hellbot_network")],
+                    [Button.url("HellxEmpire", "https://t.me/HELL_X_EMPIRE")],
                 ],
             )
 
@@ -237,15 +237,13 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         else:
             result = builder.article(
                 "@Its_HellBot",
-                text="""**Hey! This is [Hêllẞø†](https://t.me/its_hellbot) \nYou can know more about me from the links given below 👇**""",
+                text="""**Hey! This is [ʜᴇʟʟXᴇᴍᴘɪʀᴇ](https://t.me/HELL_X_EMPIRE) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Its_HellBot"),
-                        custom.Button.url("⚡ GROUP ⚡", "https://t.me/hellbot_chat"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/HELL_X_EMPIRE"),               
                     ],
                     [
-                        custom.Button.url("✨ REPO ✨", "https://github.com/The-HellBot/HellBot"),
-                        custom.Button.url("🔰 TUTORIAL 🔰", "https://youtu.be/M2FQJq_sHp4"),
+                        custom.Button.url("✨ REPO ✨", "https://github.com/The-HellBot/HellBot"),        
                     ],
                 ],
                 link_preview=False,
