@@ -98,7 +98,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://telegra.ph/file/3a48c5756d2a9763eafaf.jpg"
+                help_pic = "https://telegra.ph/file/6b3140573906a9f26ead6.jpg"
             help_msg = f"🔰 **{hell_mention}**\n\n📜 __No.of Plugins__ : `{len(CMD_HELP)}` \n🗂️ __Commands__ : `{len(apn)}`\n🗒️ __Page__ : 1/{veriler[0]}"
             if help_pic == "DISABLE":
                 result = builder.article(
@@ -118,13 +118,13 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result = builder.document(
                     help_pic,
                     text=help_msg,
-                    title="HellBot Alive",
+                    title="HellEmpire Alive",
                     buttons=veriler[1],
                     link_preview=False,
                 )
         elif event.query.user_id in auth and query == "alive":
             uptime = await get_time((time.time() - StartTime))
-            alv_msg = gvarstat("ALIVE_MSG") or "»»» <b>нєℓℓвσт ιѕ σиℓιиє</b> «««"
+            alv_msg = gvarstat("ALIVE_MSG") or "»»» <b> нᴇʟʟᴇᴍᴘɪʀᴇ ɪs ᴏɴʟɪɴᴇ </b> «««"
             he_ll = alive_txt.format(alv_msg, tel_ver, hell_ver, uptime, abuse_m, is_sudo)
             alv_btn = [
                 [Button.url(f"{HELL_USER}", f"tg://openmessage?user_id={ForGo10God}")],
