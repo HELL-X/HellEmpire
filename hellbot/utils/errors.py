@@ -34,7 +34,7 @@ def errors_handler(func):
                 'date': datetime.datetime.now()
             }
 
-            text = "**Hêllẞø† CRASH REPORT**\n\n"
+            text = "**𝐻𝑒𝑙𝑙𝐸𝑚𝑝𝑖𝑟𝑒 CRASH REPORT**\n\n"
 
             link = "[here](https://t.me/ForGo10God)"
             text += "If you wanna you can report it"
