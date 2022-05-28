@@ -13,11 +13,11 @@ from ..sql.gvar_sql import gvarstat
 from . import *
 
 ping_txt = """
-<b><i>╰•★★  ℘ơŋɠ ★★•╯</b></i>
+<b><i>╘ 𓆩 𝗣Oᑎ𝗚 𓆪 ╛</b></i>
 
-    ⚘  <i>ʂ℘ɛɛɖ :</i> <code>{}</code>
-    ⚘  <i>ų℘ɬıɱɛ :</i> <code>{}</code>
-    ⚘  <i>ơῳŋɛཞ :</i> {}
+    ۞  <i>𝕾𝖕𝖊𝖊𝖉 :</i> <code>{}</code>
+    ۞  <i>𝖀𝖕𝕿𝖎𝖒𝖊 :</i> <code>{}</code>
+    ۞  <i>𝕺𝖜𝖓𝖊𝖗 :</i> {}
 """
 
 
